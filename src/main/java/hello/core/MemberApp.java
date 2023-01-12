@@ -11,6 +11,7 @@ public class MemberApp {
 
     public static void main(String[] args) {
 
+        // 스프링 컨테이너 = ApplicationContext
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         MemberService memberService = applicationContext.getBean("memberService", MemberService.class);
 
