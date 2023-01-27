@@ -51,7 +51,7 @@ public class ApplicationContextExtendsFindTest {
     }
 
     @Test
-    @DisplayName("부모 타입으로 모두 조회 - Object")
+    @DisplayName("부모 타입으로 모두 조회 - Object타입")
     void findAllBeanByObjectType() {
         Map<String, Object> beansOfType = ac.getBeansOfType(Object.class);
         for (String key : beansOfType.keySet()) {
