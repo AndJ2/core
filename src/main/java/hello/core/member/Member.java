@@ -33,5 +33,6 @@ public class Member {
 
     public void setGrade(Grade grade) {
         this.grade = grade;
+        //수정
     }
 }
